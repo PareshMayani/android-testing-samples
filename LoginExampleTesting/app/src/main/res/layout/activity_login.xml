@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/edUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/username"/>
+
+    <EditText
+        android:id="@+id/edPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_below="@+id/edUserName"
+        android:inputType="textPassword"
+        android:hint="@string/password"
+        android:layout_alignLeft="@+id/edUserName"
+        android:layout_alignRight="@+id/edUserName"
+        android:layout_alignStart="@+id/edUserName"
+        android:layout_alignEnd="@+id/edUserName"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:id="@+id/btnLogin"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/edPassword"
+        android:layout_alignLeft="@+id/edUserName"
+        android:layout_alignRight="@+id/edUserName"
+        android:layout_alignStart="@+id/edUserName"
+        android:layout_alignEnd="@+id/edUserName"/>
+
+</RelativeLayout>
