@@ -1,8 +1,8 @@
-# android-testing-examples
+# Android Testing Samples
 
-Android testing examples repository where I (or if any contributor) would be sharing android testing examples written using testing frameworks.
+Android testing samples repository where I (or if any contributors!) would be sharing android testing samples written using testing frameworks.
 
-There are some testing libraries/frameworks which we can use for writing Android unit test and Instrumentation test. Some of them are:
+There are some testing libraries/frameworks using which we can write Android unit test and Instrumentation test. Some of them are:
 
 - JUnit
 - Espresso
